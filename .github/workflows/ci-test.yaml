@@ -7,7 +7,8 @@ on:
 jobs:
   build-and-unit-test:
     name: Build and test
-    runs-on: ubuntu-20.04
+    runs-on:
+      labels: kaap
     timeout-minutes: 60
     steps:
       - name: checkout
@@ -42,7 +43,8 @@ jobs:
 
   integration-tests:
     name: Integration tests - ${{ matrix.name }}
-    runs-on: ubuntu-20.04
+    runs-on:
+      labels: kaap
     timeout-minutes: 60
     strategy:
       fail-fast: false
@@ -59,6 +61,10 @@ jobs:
             num_agents: 0
           - name: Helm
             group: helm
+            num_agents: 0
+            setup_helm: "true"
+          - name: Helm (Cluster Scoped)
+            group: helm-cluster-scoped
             num_agents: 0
             setup_helm: "true"
           - name: Helm (TLS)
@@ -127,7 +133,7 @@ jobs:
             -Dkaap.tests.env.existing.k3s.agents='${{ matrix.num_agents }}'
 
       - name: Upload Surefire reports
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: failure()
         continue-on-error: true
         with:

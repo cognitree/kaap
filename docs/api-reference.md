@@ -17023,6 +17023,13 @@ Pod disruption budget configuration.
           Number of maxUnavailable pods.<br/>
         </td>
         <td>false</td>
+      </tr><tr>
+        <td><b>minAvailable</b></td>
+        <td>integer</td>
+        <td>
+          Number of minAvailable pods.<br/>
+        </td>
+        <td>false</td>
       </tr></tbody>
 </table>
 
@@ -23612,6 +23619,13 @@ Pod disruption budget configuration.
         <td>integer</td>
         <td>
           Number of maxUnavailable pods.<br/>
+        </td>
+        <td>false</td>
+      </tr><tr>
+        <td><b>minAvailable</b></td>
+        <td>integer</td>
+        <td>
+          Number of minAvailable pods.<br/>
         </td>
         <td>false</td>
       </tr></tbody>
@@ -35297,6 +35311,13 @@ Pod disruption budget configuration.
           Number of maxUnavailable pods.<br/>
         </td>
         <td>false</td>
+      </tr><tr>
+        <td><b>minAvailable</b></td>
+        <td>integer</td>
+        <td>
+          Number of minAvailable pods.<br/>
+        </td>
+        <td>false</td>
       </tr></tbody>
 </table>
 
@@ -41945,6 +41966,13 @@ Pod disruption budget configuration.
         <td>integer</td>
         <td>
           Number of maxUnavailable pods.<br/>
+        </td>
+        <td>false</td>
+      </tr><tr>
+        <td><b>minAvailable</b></td>
+        <td>integer</td>
+        <td>
+          Number of minAvailable pods.<br/>
         </td>
         <td>false</td>
       </tr></tbody>
@@ -53314,6 +53342,13 @@ Pod disruption budget configuration.
           Number of maxUnavailable pods.<br/>
         </td>
         <td>false</td>
+      </tr><tr>
+        <td><b>minAvailable</b></td>
+        <td>integer</td>
+        <td>
+          Number of minAvailable pods.<br/>
+        </td>
+        <td>false</td>
       </tr></tbody>
 </table>
 
@@ -63979,6 +64014,13 @@ Pod disruption budget configuration.
           Number of maxUnavailable pods.<br/>
         </td>
         <td>false</td>
+      </tr><tr>
+        <td><b>minAvailable</b></td>
+        <td>integer</td>
+        <td>
+          Number of minAvailable pods.<br/>
+        </td>
+        <td>false</td>
       </tr></tbody>
 </table>
 
@@ -70508,6 +70550,13 @@ Pod disruption budget configuration.
         <td>integer</td>
         <td>
           Number of maxUnavailable pods.<br/>
+        </td>
+        <td>false</td>
+      </tr><tr>
+        <td><b>minAvailable</b></td>
+        <td>integer</td>
+        <td>
+          Number of minAvailable pods.<br/>
         </td>
         <td>false</td>
       </tr></tbody>
@@ -82234,6 +82283,13 @@ Pod disruption budget configuration.
         <td>integer</td>
         <td>
           Number of maxUnavailable pods.<br/>
+        </td>
+        <td>false</td>
+      </tr><tr>
+        <td><b>minAvailable</b></td>
+        <td>integer</td>
+        <td>
+          Number of minAvailable pods.<br/>
         </td>
         <td>false</td>
       </tr></tbody>
