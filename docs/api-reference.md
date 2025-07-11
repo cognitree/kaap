@@ -10904,6 +10904,13 @@ Resources requirements.
         </td>
         <td>false</td>
       </tr><tr>
+        <td><b>skipVolumeClaimLabels</b></td>
+        <td>boolean</td>
+        <td>
+          Skip Applying Labels to Statefulset.VolumeClaimTemplate<br/>
+        </td>
+        <td>false</td>
+      </tr><tr>
         <td><b><a href="#pulsarclusterspecbookkeepertolerationsindex">tolerations</a></b></td>
         <td>[]object</td>
         <td>
@@ -17534,6 +17541,13 @@ Service configuration.
         <td>[]object</td>
         <td>
           Sidecar containers<br/>
+        </td>
+        <td>false</td>
+      </tr><tr>
+        <td><b>skipVolumeClaimLabels</b></td>
+        <td>boolean</td>
+        <td>
+          Skip Applying Labels to Statefulset.VolumeClaimTemplate<br/>
         </td>
         <td>false</td>
       </tr><tr>
@@ -29182,6 +29196,13 @@ Indicates if a StorageClass is used. The operator will create the StorageClass i
         </td>
         <td>false</td>
       </tr><tr>
+        <td><b>skipVolumeClaimLabels</b></td>
+        <td>boolean</td>
+        <td>
+          Skip Applying Labels to Statefulset.VolumeClaimTemplate<br/>
+        </td>
+        <td>false</td>
+      </tr><tr>
         <td><b><a href="#pulsarclusterspecbrokertolerationsindex">tolerations</a></b></td>
         <td>[]object</td>
         <td>
@@ -35829,6 +35850,13 @@ Service configuration.
         <td>[]object</td>
         <td>
           Sidecar containers<br/>
+        </td>
+        <td>false</td>
+      </tr><tr>
+        <td><b>skipVolumeClaimLabels</b></td>
+        <td>boolean</td>
+        <td>
+          Skip Applying Labels to Statefulset.VolumeClaimTemplate<br/>
         </td>
         <td>false</td>
       </tr><tr>
@@ -47243,6 +47271,13 @@ Update strategy for the StatefulSet.
         </td>
         <td>false</td>
       </tr><tr>
+        <td><b>skipVolumeClaimLabels</b></td>
+        <td>boolean</td>
+        <td>
+          Skip Applying Labels to Statefulset.VolumeClaimTemplate<br/>
+        </td>
+        <td>false</td>
+      </tr><tr>
         <td><b><a href="#pulsarclusterspecfunctionsworkertolerationsindex">tolerations</a></b></td>
         <td>[]object</td>
         <td>
@@ -57962,6 +57997,13 @@ TLS configurations related to the ZooKeeper component.
         </td>
         <td>false</td>
       </tr><tr>
+        <td><b>skipVolumeClaimLabels</b></td>
+        <td>boolean</td>
+        <td>
+          Skip Applying Labels to Statefulset.VolumeClaimTemplate<br/>
+        </td>
+        <td>false</td>
+      </tr><tr>
         <td><b>standaloneFunctionsWorker</b></td>
         <td>boolean</td>
         <td>
@@ -64490,6 +64532,13 @@ Service configuration.
         <td>[]object</td>
         <td>
           Sidecar containers<br/>
+        </td>
+        <td>false</td>
+      </tr><tr>
+        <td><b>skipVolumeClaimLabels</b></td>
+        <td>boolean</td>
+        <td>
+          Skip Applying Labels to Statefulset.VolumeClaimTemplate<br/>
         </td>
         <td>false</td>
       </tr><tr>
@@ -76096,6 +76145,13 @@ Resources requirements.
         <td>[]object</td>
         <td>
           Sidecar containers<br/>
+        </td>
+        <td>false</td>
+      </tr><tr>
+        <td><b>skipVolumeClaimLabels</b></td>
+        <td>boolean</td>
+        <td>
+          Skip Applying Labels to Statefulset.VolumeClaimTemplate<br/>
         </td>
         <td>false</td>
       </tr><tr>

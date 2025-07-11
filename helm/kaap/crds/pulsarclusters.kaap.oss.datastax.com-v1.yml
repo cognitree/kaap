@@ -850,6 +850,9 @@ spec:
                                 Default is 'false'.
                               type: boolean
                           type: object
+                        skipVolumeClaimLabels:
+                          description: Skip Applying Labels to Statefulset.VolumeClaimTemplate
+                          type: boolean
                         imagePullSecrets:
                           description: Image pull secrets.
                           items:
@@ -2995,6 +2998,9 @@ spec:
                           is 'false'.
                         type: boolean
                     type: object
+                  skipVolumeClaimLabels:
+                    description: Skip Applying Labels to Statefulset.VolumeClaimTemplate
+                    type: boolean
                   imagePullSecrets:
                     description: Image pull secrets.
                     items:
@@ -5083,6 +5089,9 @@ spec:
                           should be used.
                         type: string
                     type: object
+                  skipVolumeClaimLabels:
+                    description: Skip Applying Labels to Statefulset.VolumeClaimTemplate
+                    type: boolean
                   imagePullSecrets:
                     description: Image pull secrets.
                     items:
@@ -9628,6 +9637,9 @@ spec:
                           should be used.
                         type: string
                     type: object
+                  skipVolumeClaimLabels:
+                    description: Skip Applying Labels to Statefulset.VolumeClaimTemplate
+                    type: boolean
                   imagePullSecrets:
                     description: Image pull secrets.
                     items:
@@ -11775,6 +11787,9 @@ spec:
                                 Default is 'false'.
                               type: boolean
                           type: object
+                        skipVolumeClaimLabels:
+                          description: Skip Applying Labels to Statefulset.VolumeClaimTemplate
+                          type: boolean
                         imagePullSecrets:
                           description: Image pull secrets.
                           items:
@@ -13923,6 +13938,9 @@ spec:
                           is 'false'.
                         type: boolean
                     type: object
+                  skipVolumeClaimLabels:
+                    description: Skip Applying Labels to Statefulset.VolumeClaimTemplate
+                    type: boolean
                   imagePullSecrets:
                     description: Image pull secrets.
                     items:
@@ -16119,6 +16137,9 @@ spec:
                                   type: string
                               type: object
                           type: object
+                        skipVolumeClaimLabels:
+                          description: Skip Applying Labels to Statefulset.VolumeClaimTemplate
+                          type: boolean
                         imagePullSecrets:
                           description: Image pull secrets.
                           items:
@@ -18301,6 +18322,9 @@ spec:
                             type: string
                         type: object
                     type: object
+                  skipVolumeClaimLabels:
+                    description: Skip Applying Labels to Statefulset.VolumeClaimTemplate
+                    type: boolean
                   imagePullSecrets:
                     description: Image pull secrets.
                     items:
